@@ -4,7 +4,7 @@ import pandas as pd
 import streamlit as st
 
 def app():
-    funds = pd.read_csv('./dataset/funds.csv')
+    funds = pd.read_csv('./datasets/funds.csv')
      # The second one in the .ipynb
     st.write('''
         ### Relationship between Fund Size and it's aspect of return
@@ -12,7 +12,7 @@ def app():
 
     xs2 = funds.loc[:, 'YTD Return (%)':'10 Years Annualized (%)']
     xs2_option = st.selectbox(
-        label = 'Choose the X axis!',
+        label = 'Choose the aspect of return!',
         options = xs2.columns
     )
     ys2 = funds['Fund Size (Mil)'].apply(lambda x:float(''.join(x.replace(',',''))))

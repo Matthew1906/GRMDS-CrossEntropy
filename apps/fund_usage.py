@@ -6,7 +6,7 @@ import streamlit as st
 def app():
     
     # Get Dataframe
-    funds = pd.read_csv('./dataset/funds.csv')
+    funds = pd.read_csv('./datasets/funds.csv')
     
     # The first one in the .ipynb
     st.write('''
@@ -17,12 +17,12 @@ def app():
     ys1 = funds.loc[:, 'YTD Return (%)':'10 Years Annualized (%)']
 
     xs1_option = st.selectbox(
-        label = 'Choose the X axis!',
+        label = 'Choose the type of Fund Usage!',
         options = xs1.columns
     )
 
     ys1_option = st.selectbox(
-        label = 'Choose the Y axis!',
+        label = 'Choose the aspect of return!',
         options = ys1.columns
     )
 
