@@ -1,0 +1,52 @@
+,State,GasolineTax,DieselTax,AviationFuelTax,JetFuelTax
+0,Alabama,$0.24 / gallon,$0.2575 / gallon,$0.095 / gallon,$0.035 / gallon
+1,Alaska,$0.0895 / gallon,$0.0895 / gallon,$0.047 / gallon,$0.032 / gallon
+2,Arizona,$0.19 / gallon,$0.27 / gallon,$0.05 / gallon,0
+3,Arkansas,$0.248 / gallon,$0.288 / gallon,0,0
+4,California,$0.533 / gallon,$0.68 / gallon,$0.18 / gallon,$0.02 / gallon
+5,Colorado,$0.2325 / gallon,$0.20625 / gallon,$0.06 / gallon,$0.04 / gallon
+6,Connecticut,$0.25 / gallon,$0.465 / gallon,8.1% petroleum products gross earnings tax,8.1% petroleum products gross earnings tax
+7,Delaware,$0.23 / gallon,$0.22 / gallon,$0.23 / gallon,$0.05 / gallon
+8,District of Columbia,$0.235 / gallon,$0.235 / gallon,$0.235 / gallon,$0.235 / gallon
+9,Florida,$0.34396 / gallon,$0.35271 / gallon,$0.06971 / gallon,$0.06971 / gallon
+10,Georgia,$0.279 / gallon,$0.313 / gallon,$0.01 / gallon,0
+11,Hawaii,$0.16 / gallon,$0.16 / gallon,$0.01 / gallon,$0.01 / gallon
+12,Idaho,$0.33 / gallon,$0.33 / gallon,$0.08 / gallon,$0.07 / gallon
+13,Illinois,$0.391/ gallon,$0.466 / gallon,$0.011 / gallon,$0.011 / gallon
+14,Indiana,$0.30 / gallon,$0.49 / gallon,$0.51 / gallon,$0.21 / gallon
+15,Iowa,$0.305 / gallon,$0.325 / gallon,$0.08 / gallon,$0.05 / gallon
+16,Kansas,$0.2403 / gallon,$0.2603 / gallon,$0.24 / gallon,$0.26 / gallon
+17,Kentucky,$0.26 / gallon,$0.23 / gallon,$0.26 / gallon,0
+18,Louisiana,$0.20125 / gallon,$0.20125 / gallon,$0.20125 / gallon,$0.20125 / gallon
+19,Maine,$0.31404 / gallon,$0.3187 / gallon,$0.31404 / gallon,$0.04067/ gallon
+20,Maryland,$0.368905 / gallon,$0.376405 / gallon,$0.071905 / gallon,$0.071905 / gallon
+21,Massachusetts,$0.24 / gallon,$0.24 / gallon,$0.253 / gallon,$0.101 / gallon
+22,Michigan,$0.263 / gallon,$0.263 / gallon,$0.03 / gallon,$0.03 / gallon
+23,Minnesota,$0.286 / gallon,$0.286 / gallon,$0.05 / gallon,$0.15 / gallon
+24,Mississippi,$0.184 / gallon,$0.184 / gallon,$0.064 / gallon,$0.0525 / gallon
+25,Missouri,$0.1742 / gallon,$0.1742 / gallon,$0.09 / gallon,0
+26,Montana,$0.3275 / gallon,$0.302 / gallon,$0.0575 / gallon,$0.0575 / gallon
+27,Nebraska,$0.306 / gallon,$0.296 / gallon,$0.059 / gallon,$0.033 / gallon
+28,Nevada,$0.23805 / gallon,$0.2775 / gallon,$0.02805 / gallon,$0.01 / gallon
+29,New Hampshire,$0.23825 / gallon,$0.23825 / gallon,$0.05625/ gallon,$0.02125 / gallon
+30,New Jersey,$0.414 / gallon,$0.485 / gallon,$0.165 / gallon,$0.195 / gallon
+31,New Mexico,$0.18875 / gallon,$0.22875 / gallon,$0.17 / gallon,0
+32,New York,$0.4045 / gallon,$0.3865 / gallon,$0.070 / gallon,$0.070 / gallon
+33,North Carolina,$0.3635 / gallon,$0.3635 / gallon,$0.0025 / gallon,$0.0025 / gallon
+34,North Dakota,$0.23025 / gallon,$0.23025 / gallon,$0.08 / gallon,$0.08 / gallon
+35,Ohio,$0.385 / gallon,$0.47 / gallon,0,0
+36,Oklahoma,$0.20 / gallon,$0.20 / gallon,$0.0008 / gallon,$0.0008 / gallon
+37,Oregon,$0.36 / gallon,$0.36 / gallon,$0.11 / gallon,$0.03 / gallon
+38,Pennsylvania,$0.586 / gallon,$0.741 / gallon,$0.057 / gallon,$0.018 / gallon
+39,Rhode Island,$0.35119 / gallon,$0.35119 / gallon,0,0
+40,South Carolina,$0.2275 / gallon,$0.2275 / gallon,$0.0075 / gallon,$0.0075 / gallon
+41,South Dakota,$0.30 / gallon,$0.30 / gallon,$0.08 / gallon,$0.06 / gallon
+42,Tennessee,$0.274 / gallon,$0.284 / gallon,$0.014 / gallon,$0.014 / gallon
+43,Texas,$0.20 / gallon,$0.20 / gallon,$0.20 / gallon,$0.20 / gallon
+44,Utah,$0.3175 / gallon,$0.3175 / gallon,$0.0965 / gallon,$0.0965 / gallon
+45,Vermont,$0.3073 / gallon,$0.32 / gallon,$0.3073 / gallon,0
+46,Virginia,$0.162 / gallon,$0.202 / gallon,$0.05 / gallon,$0.05 / gallon
+47,Washington,$0.519952 / gallon,$0.519952 / gallon,$0.135952 / gallon,$0.135952 / gallon
+48,West Virginia,$0.357 / gallon,$0.357 / gallon,$0.152 / gallon,$0.152 / gallon
+49,Wisconsin,$0.329 / gallon,$0.329 / gallon,$0.08 / gallon,$0.08 / gallon
+50,Wyoming,$0.24 / gallon,$0.24 / gallon,$0.05 / gallon,$0.05 / gallon
