@@ -1,0 +1,47 @@
+,Component,Rank,EPI Score,10-year change
+0,EPI,24,69.3,2.9
+1,Health,25,82.8,4.8
+2,Air Quality,16,84.2,7.5
+3,PM2.5,15,78.8,10.5
+4,Household solid fuels,24,98,4
+5,Ozone,125,34.3,4.4
+6,Sanitation & Drinking Water,26,86.1,1.7
+7,Sanitation,35,81.4,1.9
+8,Drinking water,23,89.2,1.4
+9,Heavy Metals,31,75.9,6.4
+10,Lead,31,75.9,6.4
+11,Waste Management,71,48.3,
+12,Solid waste,71,48.3,
+13,Ecosystem Vitality,31,60.3,1.7
+14,Biodiversity,67,67.5,-0.8
+15,Terrestrial biomes (nat'l),118,53.8,0.5
+16,Terrestrial biomes (global),111,61.6,0.8
+17,Marine protected areas,1,100,
+18,Protected Areas Rep. Ind.,129,15.8,2.7
+19,Species Habitat Index,93,83.9,-13.3
+20,Species Protection Index,64,86.3,0.4
+21,Biodiversity Habitat Index,62,58.2,
+22,Ecosystem Services,127,26.8,4.9
+23,Tree cover loss,124,23.2,2.2
+24,Grassland loss,72,59.3,9.4
+25,Wetland loss,62,59,49.8
+26,Fisheries,122,6.6,-2.4
+27,Fish Stock Status,61,8.9,-4.3
+28,Marine Trophic Index,,,
+29,Fish caught by trawling,50,4,-0.1
+30,Climate Change,15,71.4,4.5
+31,CO2 growth rate,18,67,13
+32,CH4 growth rate,69,76.7,-23.3
+33,F-gas growth rate,25,94.2,6.7
+34,N2O growth rate,35,78.1,-1.4
+35,Black Carbon growth rate,1,100,
+36,CO2 from land cover,31,73.5,
+37,GHG intensity trend,57,56.7,4.6
+38,GHG per capita,167,4.5,4.5
+39,Pollution Emissions,1,100,
+40,SO2 growth rate,1,100,
+41,NOx growth rate,1,100,
+42,Agriculture,6,71.9,-4
+43,Sustainable N Mgmt Index,6,71.9,-4
+44,Water Resources,32,58.9,
+45,Wastewater treatment,32,58.9,
