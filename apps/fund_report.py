@@ -1,14 +1,16 @@
 # Importing libraries
-import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import streamlit as st
+from apps.utils import get_funds, get_prices_per_day
+
+def get_selected_data(name):
+    return funds['Ticker'][funds['Name']==name].values[0], funds[funds['Name']==fund]
 
 def app():
-    
     # Get Datasets
-    funds = pd.read_csv('./datasets/funds.csv')
-    prices = pd.read_csv('datasets/prices_per_day.csv', index_col=[0], parse_dates=True)
+    funds = get_funds()
+    prices = get_prices_per_day()
 
     # Sidebar
     st.sidebar.subheader('Fund Selection')
@@ -24,7 +26,7 @@ def app():
     )
 
     # Select Data
-    ticker = funds['Ticker'][funds['Name']==fund].values[0]
+    ticker, selectedfund = funds['Ticker'][funds['Name']==fund].values[0]
     selectedfund = funds[funds['Name']==fund]
 
     st.header('Fund Summary')

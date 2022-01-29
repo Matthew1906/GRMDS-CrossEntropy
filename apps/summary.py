@@ -1,13 +1,12 @@
 # Importing libraries
-import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import streamlit as st
+from apps.utils import get_funds, get_prices_cats
     
 def app(): 
-    sns.set()
     # Get datas
-    funds = pd.read_csv('./datasets/funds.csv')
+    funds = get_funds()
     
     # Bar charts
     col_usage, col_inv = st.columns(2)
@@ -59,16 +58,15 @@ def app():
         returns_creds_col.metric('' if idx!=0 else 'Percentage Return',return_aliases[return_type], str(round(returns_creds.loc[quality_select, return_type],2)) +'%')
 
     # Average Fund growth by category
-    prices_cats = pd.read_csv('./datasets/prices_per_cats.csv', parse_dates=['date_time'])
-    prices_cats.set_index('date_time', inplace=True)
+    prices_cats = get_prices_cats()
     st.subheader('Fund Growth by Category')
     st.caption('This graph compares average fund growth by category')
-    fig_cats, ax_cats = plt.subplots(figsize=(12,6))
     categories_select = st.multiselect(
         label = 'Select Categories (You can select more than one for comparison!)',
         options = prices_cats.columns,
         default = ['US Equity Large Cap Growth', 'US Equity Large Cap Blend','Global Equity Large Cap', 'Moderate Allocation', 'Target Date']
     )
+    fig_cats, ax_cats = plt.subplots(figsize=(12,6))
     plt.plot(prices_cats[categories_select])
     plt.legend(categories_select)
     ax_cats.set_xlabel('Date')
