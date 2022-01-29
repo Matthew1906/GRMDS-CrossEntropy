@@ -18,7 +18,10 @@ This Dashboard display the statistical summary of invested funds and reports for
 |[dashboard.py](/dashboard.py)| Main code for the dashboard |
 |[multiapp.py](/multiapp.py)| Helper code to build the [multi-page](https://github.com/upraneelnihar/streamlit-multiapps) dashboard|
 |[requirements.txt](/requirements.txt)|List of required modules to run the dashboard|
+|[GRMDS_CrossEntropy_Notebook.ipynb](/GRMDS_CrossEntropy_Notebook.ipynb) | Notebook containing most of our analysis |
+|Technical Report GRMDS CrossEntropy.pdf | Technical Report for submission in PDF format |
 |[Working App](https://share.streamlit.io/matthew1906/grmds-crossentropy/main/dashboard.py) | The dashboard, deployed on streamlit |
+
 
 ### Steps of Deployment (in vscode):
 1. Clone this repository
