@@ -1,20 +1,14 @@
 # Importing libraries
-
 import pandas as pd
-import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 import streamlit as st
 
 def app():
-    sns.set()
-
-    # Datasets
-
-    funds = pd.read_csv('datasets/funds.csv')
+    
+    # Get Datasets
+    funds = pd.read_csv('./datasets/funds.csv')
     prices = pd.read_csv('datasets/prices_per_day.csv', index_col=[0], parse_dates=True)
-
-    #################################################################
 
     # Sidebar
     st.sidebar.subheader('Fund Selection')
