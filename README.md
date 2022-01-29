@@ -1,5 +1,7 @@
 # GRMDS-CrossEntropy
-This is a repository containing submissions of team CrossEntropy to the GRMDS Responsible Investing Dashboard Competition
+This is a repository containing submissions of team CrossEntropy to the [GRMDS Responsible Investing Dashboard Competition](https://grmds.org/braceImpact)
+
+The dataset is provided by [RMDS](https://grmds.org/)
 
 [Link to Deployed Application](https://share.streamlit.io/matthew1906/grmds-crossentropy/main/dashboard.py)
 ### Description
